@@ -14,8 +14,7 @@ passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
     // add url we added in google console here -- if user is authenticated then it will redirect to below link
-    // callbackURL: "http://localhost:3000/auth/google/home",
-    callbackURL: "https://employee-db-project.herokuapp.com/auth/google/home",
+    callbackURL: "http://localhost:3000/auth/google/home",
     passReqToCallback: true
 },
     //callback functions
